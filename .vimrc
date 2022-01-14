@@ -3,9 +3,7 @@ set termguicolors
 " vundle
 set nocompatible              " be improved, required
 filetype off                  " required
-let g:material_theme_style = 'palenight'
 colorscheme onedark
-let g:lightline = { 'colorscheme': 'material_vim' }
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin('~/.vim/plugged')
