@@ -1,8 +1,10 @@
-" Vundle
-set nocompatible              " be iMproved, required
+set mouse=a
+set termguicolors
+" vundle
+set nocompatible              " be improved, required
 filetype off                  " required
 let g:material_theme_style = 'palenight'
-colorscheme jellybeans
+colorscheme onedark
 let g:lightline = { 'colorscheme': 'material_vim' }
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
